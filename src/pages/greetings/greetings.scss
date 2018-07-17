@@ -1,0 +1,56 @@
+page-greetings {
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .fleximage{
+        display: flex;
+        justify-content: space-evenly;
+        background: transparent;
+    }
+
+    ion-content{
+        background: url("../../assets/imgs/sebastian-leon-prado-562482-unsplash\ \(1\).jpg");
+        background-size: cover;   
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+    }
+
+    .container{
+        background: linear-gradient(rgba(194, 145, 120, 0.438), rgba(132, 76, 47, .7));
+        padding: 5rem;
+    }
+
+    .avatar{
+        height: 15rem;
+        transition: all .5s ease;
+        padding: .5rem;
+    }
+    .avatar:hover{
+        box-shadow: rgba(0, 0, 0, 0.623) .2rem .2rem 2rem;
+        transform: translateY(-.5rem);
+        background: rgba(255, 0, 0, 0.507);
+    }
+    .avatar:active{
+        box-shadow: rgba(0, 0, 0, 0.7) .2rem .2rem 2rem;
+        transform: translateY(.5rem);
+        transform: scale(1.5);
+    }
+
+    .gender{
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+    p{
+        color: white;
+        text-align: center;
+    }
+}

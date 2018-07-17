@@ -1,3 +1,114 @@
 page-home {
+    ion-content{
+        background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.1)),url("../../assets/imgs/jaclyn-moy-566595-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+    }
 
+    .flexcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 93vh;
+    }
+
+    .container{
+        width: 50rem;
+        background: linear-gradient(rgba(194, 145, 120, 0.438), rgba(132, 76, 47, .7));
+        padding: 6rem;
+        clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+    }
+
+    .headingText, .quoteText{
+        color: white;
+        text-align: center;
+    }
+
+    .headingText{
+        backface-visibility: hidden;
+        animation: slideleft 1s ease-in-out;
+        font-size: 4.9rem;
+        text-transform: uppercase;
+        letter-spacing: 1rem;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .quoteText{
+        backface-visibility: hidden;
+        animation: slideright 1s ease-in-out;
+    }
+    small{
+        color: white;
+    }
+
+    ion-item.item-block.item-md.item-input{
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        border: none;
+        font-size: 2rem;
+    }
+    
+    .text-input::-moz-placeholder {
+        color: white;
+      }
+      
+      .text-input:-ms-input-placeholder {
+        color: white;
+      }
+      
+      .text-input::-webkit-input-placeholder {
+        text-indent: 0;
+        color: white;
+      }
+
+      .headingText {
+        background:url('../../assets/imgs/5a6be85015bdb.jpg');
+        background-repeat:repeat-x;
+        font-weight: 700;
+    
+        color:transparent;
+        -webkit-font-smoothing:antialiased;
+        -webkit-background-clip:text;
+        -moz-background-clip:text;
+        background-clip:text;
+        -webkit-text-fill-color:transparent;
+        margin:0;
+        -webkit-animation:BackgroundAnimated 15s linear infinite;
+        -moz-animation:BackgroundAnimated 15s linear infinite;
+        -ms-animation:BackgroundAnimated 15s linear infinite;
+        -o-animation:BackgroundAnimated 15s linear infinite;
+        animation:BackgroundAnimated 15s linear infinite;
+    }
+
+    @keyframes BackgroundAnimated {
+        from {
+            background-position:0 0
+        }
+        to {
+            background-position:100% 0
+        }
+    }
+        @-webkit-keyframes BackgroundAnimated {
+        from {
+            background-position:0 0
+        }
+        to {
+            background-position:100% 0
+        }
+    }
+        @-ms-keyframes BackgroundAnimated {     from {
+            background-position:0 0
+        }
+        to {
+            background-position:100% 0
+        }
+    }
+        @-moz-keyframes BackgroundAnimated {
+        from {
+            background-position:0 0
+        }
+        to {
+            background-position:100% 0
+        }
+    }
+    
 }

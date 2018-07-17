@@ -14,3 +14,30 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+@keyframes slideleft{
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem)
+    }
+    80%{
+        transform: translate(1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+
+@keyframes slideright{
+    0%{
+        opacity: 0;
+        transform: translateX(10rem)
+    }
+    80%{
+        transform: translate(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
