@@ -1,0 +1,14 @@
+page-select {
+    .flexcontainer{
+        display: flex;
+    }
+
+    .imageflex{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    img{
+        height: 20rem;
+    }
+}
