@@ -1,4 +1,16 @@
 page-select {
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .container{
+        background: linear-gradient(rgba(194, 145, 120, 0.438), rgba(132, 76, 47, .7));
+        padding: 5rem;
+    }
+
     .flexcontainer{
         display: flex;
     }
@@ -12,21 +24,17 @@ page-select {
     }
 
     .image{
-        height: 10rem;
-        width: 10rem;
-    }
-
-
-    .image{
         height: 15rem;
         transition: all .5s ease;
         padding: .5rem;
     }
+
     .image:hover{
         box-shadow: rgba(0, 0, 0, 0.623) .2rem .2rem 2rem;
         transform: translateY(-.5rem);
         background: rgba(255, 0, 0, 0.507);
     }
+
     .image:active{
         box-shadow: rgba(0, 0, 0, 0.7) .2rem .2rem 2rem;
         transform: translateY(.5rem);

@@ -14,12 +14,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'select.html',
 })
 export class SelectPage {
-
+  hobby: string;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SelectPage');
   }
-
 }
