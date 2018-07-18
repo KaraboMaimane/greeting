@@ -5,10 +5,31 @@ page-select {
 
     .imageflex{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 15rem;
     }
-    img{
-        height: 20rem;
+
+    .image{
+        height: 10rem;
+        width: 10rem;
+    }
+
+
+    .image{
+        height: 15rem;
+        transition: all .5s ease;
+        padding: .5rem;
+    }
+    .image:hover{
+        box-shadow: rgba(0, 0, 0, 0.623) .2rem .2rem 2rem;
+        transform: translateY(-.5rem);
+        background: rgba(255, 0, 0, 0.507);
+    }
+    .image:active{
+        box-shadow: rgba(0, 0, 0, 0.7) .2rem .2rem 2rem;
+        transform: translateY(.5rem);
+        transform: scale(1.5);
     }
 }
