@@ -1,4 +1,8 @@
 page-select {
+    ion-content{
+        background: url("../../assets/imgs/sayan-nath-180616-unsplash.jpg");
+        background-size: cover;
+    }
     .flex{
         display: flex;
         justify-content: center;
@@ -13,11 +17,12 @@ page-select {
 
     .flexcontainer{
         display: flex;
+        justify-content: center;
     }
 
     .imageflex{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction: row;
         flex-wrap: wrap;
         flex-basis: 15rem;
@@ -25,6 +30,7 @@ page-select {
 
     .image{
         height: 15rem;
+        width: 15rem;
         transition: all .5s ease;
         padding: .5rem;
     }
@@ -39,5 +45,16 @@ page-select {
         box-shadow: rgba(0, 0, 0, 0.7) .2rem .2rem 2rem;
         transform: translateY(.5rem);
         transform: scale(1.5);
+    }
+
+    .heading, .activity{
+        color: white;
+        text-align: center;
+    }
+
+    .activity{
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: .2rem;
     }
 }

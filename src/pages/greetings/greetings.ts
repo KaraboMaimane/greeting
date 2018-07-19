@@ -36,7 +36,11 @@ export class GreetingsPage {
   }
 
   nextPage(){
-    this.navCtrl.push(SelectPage);
+    this.navCtrl.push(SelectPage, {
+      name: this.name,
+      surname: this.surname,
+      gender: this.gender
+    });
   }
 
 }

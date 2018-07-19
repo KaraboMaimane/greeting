@@ -4,31 +4,25 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>select</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
 <ion-content padding>
   <div class="flex">
     <div class="content">
-      <h1>{{ hobby }}</h1>
       <div class="flexcontainer">
         <div class="container">
-          <h1 class="heading">Select your hobby</h1>
+          <h1 class="heading">Whats your ideal hobby???</h1>
+          <p class="activity">{{ hobby }}</p>
           <div class="imageflex">
             <div class="imgcontainer">
-              <img src="../../assets/imgs/d5c66b5478e1692c2e0e463798d191aa.png" alt="" class="image" (click)="hobby = 'Rock Climbing'">
+              <img src="../../assets/imgs/rockclimb.png" alt="" class="image" (click)="hobby = 'Rock Climbing'">
             </div>
             <div class="imgcontainer">
-              <img src="../../assets/imgs/logo (1).png" alt="" class="image" (click)="hobby = 'Sky Diving'">
+              <img src="../../assets/imgs/skydiving.png" alt="" class="image" (click)="hobby = 'Sky Diving'">
             </div>
             <div class="imgcontainer">
-              <img src="../../assets/imgs/fdafasdfsdfsdfasdeteerwtwer.png" alt="" class="image" (click)="hobby = 'Hiking'">
+              <img src="../../assets/imgs/hiking.png" alt="" class="image" (click)="hobby = 'Hiking'">
+            </div>
+            <div class="imgcontainer">
+              <img src="../../assets/imgs/cycling.png" alt="" class="image" (click)="hobby = 'Cycling'">
             </div>
           </div>
         </div>
