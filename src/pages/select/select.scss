@@ -12,7 +12,7 @@ page-select {
 
     .container{
         background: linear-gradient(rgba(194, 145, 120, 0.438), rgba(132, 76, 47, .7));
-        padding: 5rem;
+        padding: rem;
     }
 
     .flexcontainer{
@@ -50,6 +50,11 @@ page-select {
     .heading, .activity{
         color: white;
         text-align: center;
+    }
+
+    .heading{
+        text-transform: capitalize;
+        font-size: 3rem
     }
 
     .activity{
